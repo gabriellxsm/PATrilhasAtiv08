@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um número inteiro positivo: ");
+        int n = int.Parse(Console.ReadLine());
+
+        int soma = 0;
+        for (int i = 1; i <= n; i++)
+        {
+            soma += i;
+        }
+
+        Console.WriteLine("A soma de todos os números entre 1 e " + n + " é: " + soma);
+    }
+}
